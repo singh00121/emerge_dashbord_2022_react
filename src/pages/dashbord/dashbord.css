@@ -1,0 +1,221 @@
+.dasbord-topcard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0px 30px;
+  padding: 5px 0px;
+  z-index: -1;
+}
+.dashbord_card {
+  padding: 20px 10px 20px 10px;
+  border-radius: 5px;
+  /* position: absolute; */
+}
+.Iconrcolor {
+  color: var(--color_blue);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.card1 {
+  /* height: 150px;*/
+  width: 300px;
+  border-radius: 10px;
+  background-image: url('../../images/Dashbord/redCard.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card2 {
+  /* height: 150px;*/
+  width: 300px;
+  border-radius: 10px;
+  background-image: url('../../images/Dashbord/blueCard.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card3 {
+  /* height: 150px;*/
+  width: 300px;
+  border-radius: 10px;
+  background-image: url('../../images/Dashbord/greenCard.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Dashbaord_tabls_man {
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 30px;
+  padding: 5px 0px;
+  height: 600px;
+  overflow-y: auto;
+}
+.dashbord_number {
+  /* font-size: 72px; */
+  /* background: linear-gradient(to right, #ffffff 0%, #95989a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 1px 2px #95989a; */
+  /* font-size: 10px; */
+  font-size: 20px;
+  color: #e8e2d6;
+  font-family: Arial Black, Gadget, sans-serif;
+  text-shadow: 0px 0px 0 rgb(79, 73, 61), 1px 0px 0 rgb(-74, -80, 0),
+    2px 0px 1px rgba(255, 255, 255, 0.54), 2px 0px 1px rgba(255, 255, 255, 0.5),
+    0px 0px 1px rgba(255, 255, 255, 0.2);
+}
+.dashbordcard-image {
+  width: 140px;
+}
+.Dashbord_tabldiv {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 30px 30px 10px 30px;
+}
+.dashbord_list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-around;
+  padding: 10px 0px 10px 0px;
+  margin: 10px 0px;
+  align-items: center;
+  text-align: center;
+}
+.Order_tabl {
+  background-color: #f4f4f5;
+  padding: 5px 10px;
+
+  padding: 8px 20px;
+
+  border-radius: 10px;
+}
+.rentals_cod {
+  background-color: #e2e200;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+.rentals_Rental {
+  background-color: #cc7500;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+.rentals_Prepaid {
+  background-color: #37ce00;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+.dashbord_date {
+  font-size: 15px;
+}
+.Dashbord_price {
+  font-weight: 500;
+  color: black;
+}
+.Recived {
+  color: #9c0097;
+}
+
+/* li:nth-child(5) {
+  background-color: #CC7500;
+} */
+/* .chip-image {
+  padding: 12px;
+}
+.chip-image img {
+  width: 50px;
+}
+.card-details {
+  padding: 0px 15px;
+}
+.card-number {
+  font-size: 25px;
+  color: #fff;
+}
+.date {
+  font-size: 15px;
+  padding: 4px 0px;
+  color: #fff;
+}
+.picture {
+  display: flex;
+  justify-content: end;
+  padding: 0px 24px;
+}
+.picture img {
+  width: 40px;
+} */
+.tavlcolor {
+  color: black;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  .card1 {
+    /* height: 150px;*/
+    width: 250px;
+    border-radius: 10px;
+    background-image: url('../../images/Dashbord/redCard.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .card2 {
+    /* height: 150px;*/
+    width: 250px;
+    border-radius: 10px;
+    background-image: url('../../images/Dashbord/blueCard.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .card3 {
+    /* height: 150px;*/
+    width: 250px;
+    border-radius: 10px;
+    background-image: url('../../images/Dashbord/greenCard.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .dashbordcard-image {
+    width: 90px;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: 1279px) {
+  .card1 {
+    /* height: 150px;*/
+    width: 200px;
+    border-radius: 10px;
+    background-image: url('../../images/Dashbord/redCard.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .card2 {
+    /* height: 150px;*/
+    width: 200px;
+    border-radius: 10px;
+    background-image: url('../../images/Dashbord/blueCard.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .card3 {
+    /* height: 150px;*/
+    width: 200px;
+    border-radius: 10px;
+    background-image: url('../../images/Dashbord/greenCard.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .dashbordcard-image {
+    width: 90px;
+  }
+  .dashbordcardimage {
+    width: 20px;
+    height: 20px;
+  }
+  .dashbord_card {
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    /* position: absolute; */
+  }
+}

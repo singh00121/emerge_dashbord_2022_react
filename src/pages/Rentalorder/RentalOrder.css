@@ -1,0 +1,6 @@
+.Therd_Row_Reantal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:  20px 50px;
+}

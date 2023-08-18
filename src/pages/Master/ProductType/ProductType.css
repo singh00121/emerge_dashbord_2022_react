@@ -1,0 +1,81 @@
+.ProductTypeheder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+.masterIconeback {
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.producttypeBody {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px 30px;
+}
+.leftsaidtabl {
+}
+.rightsaidform {
+}
+.types {
+  margin: 10px 30px;
+}
+.Pruduct-type {
+  background-color: #f4f4f5;
+  padding: 5px 70px;
+  border-radius: 20px;
+}
+
+.driver_table_heading {
+  background-color: #d5d5d5;
+  font-size: 15px;
+  border: none;
+  height: 30px;
+  width: 100%;
+  font-weight: 700;
+}
+.image {
+  border: 1px solid;
+  background-image: url("../../../images/master//images1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: fill;
+  width: 200px;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  /* border-top-left-radius: 400px;
+  border-top-right-radius: 400px; */
+  padding: 10px;
+}
+
+.addprodttypebuthon {
+  background-color: #215dd7;
+  padding: 10px 30px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.Productnamein {
+  border-radius: 10px;
+  height: 40px;
+}
+
+.master_tabal {
+  width: 600px;
+}
+.prescriptionImage {
+  width: 250px;
+  height: 200px;
+  object-fit: contain;
+}
+.pointer {
+  cursor: pointer;
+}

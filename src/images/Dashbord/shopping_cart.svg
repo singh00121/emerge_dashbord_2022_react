@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45.008" height="45.008" viewBox="0 0 45.008 45.008">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.874" y1="0.981" x2="0.033" y2="0.027" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#cecac8"/>
+    </linearGradient>
+    <filter id="ic_shopping_cart_24px" x="0" y="0" width="45.008" height="45.008" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur"/>
+      <feFlood flood-opacity="0.431"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="ic_shopping_cart_24px-2" x="0" y="0" width="45.008" height="45.008" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g data-type="innerShadowGroup">
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#ic_shopping_cart_24px)">
+      <path id="ic_shopping_cart_24px-3" data-name="ic_shopping_cart_24px" d="M13.6,35.606a4.2,4.2,0,1,0,4.2,4.2A4.2,4.2,0,0,0,13.6,35.606ZM1,2V6.2H5.2l7.561,15.942L9.927,27.289A4.061,4.061,0,0,0,9.4,29.305a4.213,4.213,0,0,0,4.2,4.2h25.2v-4.2H14.485a.52.52,0,0,1-.525-.525l.063-.252,1.89-3.424H31.561a4.181,4.181,0,0,0,3.676-2.163L42.756,9.309A2.052,2.052,0,0,0,43.008,8.3a2.107,2.107,0,0,0-2.1-2.1H9.843L7.868,2H1ZM34.606,35.606a4.2,4.2,0,1,0,4.2,4.2A4.2,4.2,0,0,0,34.606,35.606Z" transform="translate(-0.5 -1.5)" fill="url(#linear-gradient)"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#ic_shopping_cart_24px-2)">
+      <path id="ic_shopping_cart_24px-4" data-name="ic_shopping_cart_24px" d="M13.6,35.606a4.2,4.2,0,1,0,4.2,4.2A4.2,4.2,0,0,0,13.6,35.606ZM1,2V6.2H5.2l7.561,15.942L9.927,27.289A4.061,4.061,0,0,0,9.4,29.305a4.213,4.213,0,0,0,4.2,4.2h25.2v-4.2H14.485a.52.52,0,0,1-.525-.525l.063-.252,1.89-3.424H31.561a4.181,4.181,0,0,0,3.676-2.163L42.756,9.309A2.052,2.052,0,0,0,43.008,8.3a2.107,2.107,0,0,0-2.1-2.1H9.843L7.868,2H1ZM34.606,35.606a4.2,4.2,0,1,0,4.2,4.2A4.2,4.2,0,0,0,34.606,35.606Z" transform="translate(-0.5 -1.5)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

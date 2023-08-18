@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31.638" height="45.184" viewBox="0 0 31.638 45.184">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.874" y1="0.981" x2="0.033" y2="0.027" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#cecac8"/>
+    </linearGradient>
+    <filter id="rupee" x="0" y="0" width="31.638" height="45.184" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur"/>
+      <feFlood flood-opacity="0.431"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="rupee-2" x="0" y="0" width="31.638" height="45.184" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g data-type="innerShadowGroup">
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#rupee)">
+      <path id="rupee-3" data-name="rupee" d="M16.767,844.6,1.476,825.473l.088-3.792c7.176.494,12.756-.265,14.054-7.053L.327,814.54,2.8,810.4l12.2.175c-1.858-3.862-6.97-4.339-14.938-4.055L2.8,802.46l25.9-.039-2.563,4.006H18.978a7.324,7.324,0,0,1,2.3,4.32l7.425-.088-2.563,3.968-4.95.088c-.773,5.918-6.21,9.423-13.081,10.228L23.5,844.6l-6.731,0h0Z" transform="translate(0.44 -801.92)" fill="url(#linear-gradient)"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#rupee-2)">
+      <path id="rupee-4" data-name="rupee" d="M16.767,844.6,1.476,825.473l.088-3.792c7.176.494,12.756-.265,14.054-7.053L.327,814.54,2.8,810.4l12.2.175c-1.858-3.862-6.97-4.339-14.938-4.055L2.8,802.46l25.9-.039-2.563,4.006H18.978a7.324,7.324,0,0,1,2.3,4.32l7.425-.088-2.563,3.968-4.95.088c-.773,5.918-6.21,9.423-13.081,10.228L23.5,844.6l-6.731,0h0Z" transform="translate(0.44 -801.92)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

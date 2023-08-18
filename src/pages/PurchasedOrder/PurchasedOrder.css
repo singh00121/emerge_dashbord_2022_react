@@ -1,0 +1,22 @@
+.puchesOrderOuter {
+  padding: 10px 0px;
+}
+.Parched_top_secton {
+  /* background-color: #fff; */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 30px 30px 10px 30px;
+  background-color: #fff;
+  padding-bottom: 10px;
+}
+
+.purches_data {
+  height: 500px;
+  overflow-y: auto;
+}
+.Processing {
+  color: #59cce2;
+}
+.cod {
+  background: #e2e200;
+}

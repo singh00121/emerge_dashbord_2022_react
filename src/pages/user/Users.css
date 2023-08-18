@@ -1,0 +1,56 @@
+.User_top_secton {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 30px 30px 10px 30px;
+  padding-bottom: 10px;
+}
+.User_filter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+.tolal_user {
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
+  /* margin: -23px 107px; */
+}
+
+.user_content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px 0px 10px 0px;
+  margin: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+  font-weight: 500;
+  color: black;
+}
+
+.user_addres {
+  width: 300px;
+}
+.bg_color {
+  margin: 10px;
+  padding: 0px 7px;
+  background-color: #f4f4f5;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  color: black;
+  border-radius: 4px;
+  /* font-size: 12px; */
+}
+.User_Enabl_dis{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: right;
+  align-items: flex-end;
+  float: right;
+  gap: 20px;
+}
